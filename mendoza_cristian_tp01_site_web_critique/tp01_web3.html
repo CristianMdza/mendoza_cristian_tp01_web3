@@ -24,11 +24,12 @@
 </head>
 <body>
     <!-- HEADER -->
-     <header class="bg-dark texte-white text-center py-5" style="background: url('../assets/images/halo_reach_front_cover.jpg') center/cover no-repeat;"></header>
+     <header class="bg-dark text-white text-center py-5" style="background: url('../assets/images/halo_reach_front_cover.jpg') center/cover no-repeat;">
      <div class="bg-dark bg-opacity-50 p-5 rounded">
         <h1 class="display-4 fw-bold">Halo : Reach</h1>
         <p class="lead">14 septembre 2010</p>
      </div>
+     </header>
 
     <!-- CONTENU PRINCIPALE -->
      <main class="container my-5">
@@ -36,32 +37,48 @@
 
             <!-- COLONNE GAUCHE - INF DU JEU -->
             <div class="col-lg-8">
-                <h2 class="mb-4">SALUT</h2>
-                <p>
-                    Halo Reach plonge...
-                </p>
 
-                <!-- IMAGES DU JEU VIDEO-->
-                <div class="row g-3 my-3">
-
-                    <!-- IMAGE HALO INTRO -->
-                    <div class="col-md-6">
-                        <img src="../assets/images/halo_intro.jpg" class="img-fluid rounded shadow" alt="Halo Reach Intro">
+                    <!-- IMAGE HALO INTRO : IMAGE À GAUCHE / TEXTE À DROITE -->
+                    <div class="row align-items-center mb-5">
+                        <div class="col-md-6">
+                            <img src="../assets/images/halo_intro.jpg" class="img-fluid rounded shadow" alt="Halo Reach Intro">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="mb-3">Introduction</h2>
+                            <p>
+                                Halo Reach plonge les joueurs dans l’ultime combat des Spartans, où chaque mission est marquée par un sentiment de sacrifice et d’urgence.
+                            </p>
+                        </div>
                     </div>
 
-                    <!-- IMAGE HALO SOLO -->
-                    <div class="col-md-6">
-                        <img src="../assets/images/halo_solo.jpg" class="img-fluid rounded shadow" alt="Halo Reach Solo">
+                    <!-- IMAGE HALO CAMPAGNE SOLO : TEXTE À GAUCHE / IMAGE À DROITE -->
+                    <div class="row align-items-center mb-5">
+                        <div class="col-md-6 order-md-2">
+                            <img src="../assets/images/halo_solo.jpg" class="img-fluid rounded shadow" alt="Halo Reach Solo">
+                        </div>
+                        <div class="col-md-6 order-md-1">
+                            <h2 class="mb-3">Campagne solo</h2>
+                            <p>
+                                La campagne solo de Reach se distingue par sa narration immersive, des personnages mémorables et une intensité dramatique rarement égalée.
+                            </p>
+                        </div>
                     </div>
 
-                    <!-- IMAGE HALO MULTIPLAYER-->
-                    <div class="col-md-6">
-                        <img src="../assets/images/halo_multiplayer.jpg" class="img-fluid rounded shadow" alt="Halo Reach Multiplayer">
+                    <!-- IMAGE HALO MULTIJOUEUR : IMAGE À GAUCHE / TEXTE À DROITE -->
+                    <div class="row align-items-center mb-5">
+                        <div class="col-md-6">
+                            <img src="../assets/images/halo_multiplayer.jpg" class="img-fluid rounded shadow" alt="Halo Reach Multiplayer">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="mb-3">Multijoueur</h2>
+                            <p>
+                                Le mode multijoueur a marqué toute une génération grâce à ses cartes variées, son gameplay équilibré et son système de personnalisation innovant.
+                            </p>
+                        </div>
                     </div>
-                </div>
 
                 <!-- CARTE - NOTE D'APPRÉCIATION/JEU -->
-                <div class="card bg-succes texte-white text-center my-4">
+                <div class="card bg-success text-white text-center my-4">
                     <div class="card-body">
                         <h3 class="card-title"><i class="bi bi-star-fill"></i> Impressionnant – 10/10</h3>
             </div>
@@ -73,11 +90,11 @@
                  <div class="mb-4 p-3 bg-light rounded shadow">
                     <h4 class="mb-3">Catégories</h4>
                     <ul class="list-group">
-                        <li><i class="bi bi-controller"></i> Jeu vidéo</li>
-                        <li><i class="bi bi-person-circle"></i> Bungie</li>
-                        <li><i class="bi bi-globe"></i> Xbox 360</li>
-                        <li><i class="bi bi-calendar-event"></i> 14 septembre 2010</li>
-                    </ul>
+                        <li class="list-group-item"><i class="bi bi-controller"></i> Jeu vidéo</li>
+                        <li class="list-group-item"><i class="bi bi-person-circle"></i> Bungie</li>
+                        <li class="list-group-item"><i class="bi bi-globe"></i> Xbox 360</li>
+                        <li class="list-group-item"><i class="bi bi-calendar-event"></i> 14 septembre 2010</li>
+                        </ul>
              </aside>
 
              <!-- ARTICLES SIMILAIRES -->
@@ -101,13 +118,11 @@
 
                  </div>
 
-
-
      </main>
 
     <!-- FOOTER -->
-     <footer class="bg-dark texte-white text-center py-3">
-        025 © Critiques galactiques
+     <footer class="bg-dark text-white text-center py-3">
+        2025 © Critiques galactiques
      </footer>
 
     <!-- BOOTSTRAP JS -->
