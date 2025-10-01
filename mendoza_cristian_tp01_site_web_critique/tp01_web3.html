@@ -35,9 +35,10 @@
      <main class="container my-5">
         <div class="row">
 
-            <!-- COLONNE À GAUCHE (Categories + Articles similaires) -->
+            <!-- COLONNE À GAUCHE -->
             <aside class="col-lg-4">
-                <!-- CATEGORIES -->
+
+                <!-- CATÉGORIES -->
                 <div class="mb-4 p-3 bg-light rounded shadow">
                     <h4 class="mb-3">Catégories</h4>
                     <ul class="list-group">
@@ -49,7 +50,7 @@
                 </div>
 
                 <!-- ARTICLES SIMILAIRES -->
-                <div>
+                <div class="mb-4 p-3 bg-light rounded shadow">
                     <h4>Articles similaires</h4>
 
                     <div class="card mb-3">
@@ -66,51 +67,56 @@
                         </div>
                     </div>
                 </div>
+
             </aside>
 
-            <!-- COLONNE DROITE (Texte + Images alternées + Note) -->
+            <!-- COLONNE À DROITE -->
             <div class="col-lg-8">
 
-                <!-- IMAGE HALO INTRO : IMAGE À GAUCHE / TEXTE À DROITE -->
-                <div class="row align-items-center mb-5">
-                    <div class="col-md-6">
-                        <img src="../assets/images/halo_intro.jpg" class="img-fluid rounded shadow" alt="Halo Reach Intro">
-                    </div>
-                    <div class="col-md-6">
-                        <h2 class="mb-3">Introduction</h2>
-                        <p>
-                            Halo Reach plonge les joueurs dans l’ultime combat des Spartans, où chaque mission est marquée par un sentiment de sacrifice et d’urgence.
-                        </p>
-                    </div>
-                </div>
+                <div class="p-4 bg-light rounded shadow mb-4">
 
-                <!-- IMAGE HALO CAMPAGNE SOLO : TEXTE À GAUCHE / IMAGE À DROITE -->
-                <div class="row align-items-center mb-5">
-                    <div class="col-md-6 order-md-2">
-                        <img src="../assets/images/halo_solo.jpg" class="img-fluid rounded shadow" alt="Halo Reach Solo">
+                    <!-- INTRO HALO-->
+                    <div class="row align-items-center mb-5">
+                        <div class="col-md-6">
+                            <img src="../assets/images/halo_intro.jpg" class="img-fluid rounded shadow" alt="Halo Reach Intro">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="mb-3">Introduction</h2>
+                            <p>
+                                Halo Reach plonge les joueurs dans l’ultime combat des Spartans, où chaque mission est marquée par un sentiment de sacrifice et d’urgence.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-md-6 order-md-1">
-                        <h2 class="mb-3">Campagne solo</h2>
-                        <p>
-                            La campagne solo de Reach se distingue par sa narration immersive, des personnages mémorables et une intensité dramatique rarement égalée.
-                        </p>
-                    </div>
-                </div>
 
-                <!-- IMAGE HALO MULTIJOUEUR : IMAGE À GAUCHE / TEXTE À DROITE -->
-                <div class="row align-items-center mb-5">
-                    <div class="col-md-6">
-                        <img src="../assets/images/halo_multiplayer.jpg" class="img-fluid rounded shadow" alt="Halo Reach Multiplayer">
+                    <!-- CAMPAGNE SOLO  -->
+                    <div class="row align-items-center mb-5">
+                        <div class="col-md-6 order-md-2"></div>
+                            <img src="../assets/images/halo_solo.jpg" class="img-fluid rounded shadow" alt="Halo Reach Solo">
+                        </div>
+                        <div class="col-md-6 order-md-1">
+                            <h2 class="mb-3">Campagne solo</h2>
+                            <p>
+                                La campagne solo de Reach se distingue par sa narration immersive, des personnages mémorables et une intensité dramatique rarement égalée.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <h2 class="mb-3">Multijoueur</h2>
-                        <p>
-                            Le mode multijoueur a marqué toute une génération grâce à ses cartes variées, son gameplay équilibré et son système de personnalisation innovant.
-                        </p>
-                    </div>
-                </div>
 
-                <!-- CARTE - NOTE D'APPRÉCIATION/JEU -->
+                    <!-- MULTIJOUEUR -->
+                    <div class="row align-items-center mb-5">
+                        <div class="col-md-6">
+                            <img src="../assets/images/halo_multiplayer.jpg" class="img-fluid rounded shadow" alt="Halo Reach Multiplayer">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="mb-3">Multijoueur</h2>
+                            <p>
+                                Le mode multijoueur a marqué toute une génération grâce à ses cartes variées, son gameplay équilibré et son système de personnalisation innovant.
+                            </p>
+                        </div>
+                    </div>
+
+                </div> 
+
+                <!-- CARTE DE NOTE  -->
                 <div class="card bg-success text-white text-center my-4 w-100">
                     <div class="card-body">
                         <h3 class="card-title mb-0"><i class="bi bi-star-fill"></i> Impressionnant – 10/10</h3>
@@ -119,11 +125,12 @@
 
             </div>
         </div>
-     </main>
+    </main>
+            
 
     <!-- FOOTER -->
      <footer class="bg-dark text-white text-center py-3">
-        2025 © Critiques galactiques
+        2025 © Critiques Galactiques
      </footer>
 
     <!-- BOOTSTRAP JS -->
