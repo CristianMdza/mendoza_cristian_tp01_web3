@@ -1,6 +1,23 @@
 /* TYPOGRAPHIE SAN FRANCISCO PRODISPLAY */
 /* NOTE: PAS TOUTES SONT IMPORTÉES */
 
+
+/* AJOUT DES VARIABLES POUR MA PALETTE DE COULEURS */
+:root {
+
+  --bs-dark: #070911;
+  --bs-dark-rgb: 7, 9, 17;
+
+  --bs-warning: #ffc107; 
+  --bs-warning-rgb: 255, 193, 7;
+
+  --bs-light: #f8f9fa; 
+  --bs-light-rgb: 248, 249, 250;
+
+  --bs-success: #198741; 
+  --bs-success-rgb: 25, 135, 84;
+}
+
 /* POUR TEXTE NORMAL */
 @font-face {
     font-family: 'SF Pro Display';
