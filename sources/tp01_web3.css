@@ -48,3 +48,33 @@
   font-weight: 700;
   font-style: italic;
 }
+
+/* AJOUT DE LA POLICE SF PRO */
+body {
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+/* TITRES PRINCIPAUX */
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+/* SOUS-TITRES */
+h4, h5, h6 {
+  font-weight: 600; 
+}
+
+/* TEXTES GÉNÉRALES */
+p, li, a, span, button {
+  font-weight: 400;
+}
+
+/* TEXTES SECONDAIRES */
+small, .text-muted {
+  font-weight: 300; 
+}
+
+/* ITALIQUE */
+em, i {
+  font-style: italic;
+}
