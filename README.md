@@ -12,7 +12,8 @@ Le contenu inclut :
 - Une critique du mode multijoueur;
 - Un accordéon présentant les principaux épisodes de la saga Halo; 
 - Des articles similaires recommandés;
-- Une carte d'appréciation du jeu sur une note de 10 sur 10.  
+- Une carte d'appréciation du jeu sur une note de 10 sur 10;
+- Un petit footer.  
 
 ---
 
