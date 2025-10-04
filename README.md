@@ -6,6 +6,7 @@ Projet réalisé dans le cadre du cours Web 3 au Collège Montmorency (Session A
 
 Ce site web présente une critique détaillée du jeu **Halo Reach**, avec une mise en page responsive utilisant **Bootstrap**.  
 Le contenu inclut :  
+- Un Header Titre + image background;  
 - Une introduction immersive;  
 - Une critique de la campagne solo; 
 - Une critique du mode multijoueur;
