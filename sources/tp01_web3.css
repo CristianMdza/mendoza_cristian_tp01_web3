@@ -96,6 +96,7 @@ em, i {
   font-style: italic;
 }
 
+/* CONTOUR ORANGE - TITRE PRINCIPAL - HEADER */
 .halo-title {
   color: white; 
   -webkit-text-stroke: 2px orange; 
