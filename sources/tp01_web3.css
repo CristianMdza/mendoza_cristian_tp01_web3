@@ -95,3 +95,9 @@ small, .text-muted {
 em, i {
   font-style: italic;
 }
+
+.halo-title {
+  color: white; 
+  -webkit-text-stroke: 2px orange; 
+  text-shadow: 2px 2px 4px black; 
+}
